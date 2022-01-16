@@ -1,1 +1,54 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.card {
+  background-color: white;
+  width: 20rem;
+  overflow: hidden;
+  margin: 2rem;
+  -webkit-box-shadow: 5px 5px 5px 5px #000;
+          box-shadow: 5px 5px 5px 5px #000;
+  border-radius: 0.5rem;
+}
+
+.card img {
+  height: 15rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.card .card_content {
+  padding: 2rem;
+}
+
+.card .card_title {
+  margin: 0;
+  color: black;
+}
+
+.card .card_description {
+  margin: 0;
+  color: #999;
+}
+
+.card_dark {
+  background-color: black;
+}
+
+.card_dark .card_title {
+  color: white;
+}
+
+body {
+  font-family: "Poppins", Helvetica, sans-serif;
+  background-color: #ab99ca;
+  padding: 2rem;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */

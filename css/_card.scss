@@ -1,0 +1,45 @@
+.card {
+      background-color: white;
+      width: 20rem;
+      overflow: hidden;
+      margin: 2rem;
+      box-shadow: 5px 5px 5px 5px #000;
+      @include border-radius(0.5rem);
+
+      // simplifier l'écriture du code avec NESTING
+      // nesting : qui consiste à imbriquer les selecteurs css
+
+      img {
+            height: 15rem;
+            background-size: cover;
+            background-position: center;
+      }
+
+      .card_content {
+            padding: $spacing;
+      }
+
+      .card_title {
+            margin: 0;
+            color: black;
+      }
+
+      .card_description {
+            margin: 0;
+            color: $dark-grey;            
+      }
+
+      // on peut utilisé l'alias & OU and suivi du nom de la classe qui va reprendre le selecteur parent, en faisent "$_dark" qui est le nom de la variable. 
+
+      &_dark {
+            
+            background-color: black;
+
+            .card_title {
+                  color: white;
+            }
+
+      }
+
+
+}

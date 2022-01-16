@@ -1,0 +1,13 @@
+// importation du fichier
+
+@import 'variables';
+@import 'mixins';
+@import 'card';
+
+body {
+     font-family: $fonts; // utilisation de la variable
+     background-color: $primary-color;
+     padding: $spacing ;
+     min-height: 100vh;
+     @include flex-center();
+}

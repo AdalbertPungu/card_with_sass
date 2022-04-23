@@ -1,3 +1,3 @@
 # card_with_sass
 
-Une petite explication sur ![sass](https://sass-lang.com/)
+Learn more about [sass](https://sass-lang.com/)
